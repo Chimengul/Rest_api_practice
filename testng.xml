@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Testing 2022/Rest_api_practice">
+        <classes>
+            <class name="com.test_rest_assured.TC_WebPage">
+                <methods>
+                    <include name="testGetRequest"/>
+                    <include name="testPostRequest"/>
+                    <include name="getSingleUser"/>
+                    <include name="putRequest"/>
+                    <include name="DeleteRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
